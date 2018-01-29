@@ -283,6 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovableObject.cs" />
+    <Compile Include="Assets\Scripts\RockBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3D\zombie\models\animation list.txt" />
