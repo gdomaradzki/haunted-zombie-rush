@@ -283,10 +283,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MovableObject.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\RockBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\3D\zombie\models\animation list.txt" />
+    <None Include="Assets\Zombie\models\animation list.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
