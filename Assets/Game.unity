@@ -113,25 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &56547435 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563525004076488, guid: 44c74fc69f21c964598a47ce5066cacd,
-    type: 2}
-  m_PrefabInternal: {fileID: 831362614}
---- !u!114 &56547436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 56547435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 694550bd058456f43828286c88347050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectSpeed: 5
-  startPosition: 70.5
-  resetPosition: -50.8
 --- !u!1 &71074296
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,11 +824,6 @@ Prefab:
     - target: {fileID: 4946459758118478, guid: 5057b999c19110b448487c8b3cf631ff, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114962339972500140, guid: 5057b999c19110b448487c8b3cf631ff,
-        type: 2}
-      propertyPath: objectSpeed
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5057b999c19110b448487c8b3cf631ff, type: 2}
@@ -1874,6 +1850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 100
   sfxJump: {fileID: 8300000, guid: 233c6efd7d2d3ea4d916582748b213e2, type: 3}
+  sfxDeath: {fileID: 8300000, guid: ffee20b7ed1c5b64c8554f4c2a2bfa5a, type: 3}
 --- !u!54 &748919278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3853,25 +3830,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1617681566}
   m_Mesh: {fileID: 4300544, guid: e8be92c70fff65b4dbb0b0dece88146e, type: 3}
---- !u!1 &1618558693 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563525004076488, guid: 44c74fc69f21c964598a47ce5066cacd,
-    type: 2}
-  m_PrefabInternal: {fileID: 1761641540}
---- !u!114 &1618558694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1618558693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 694550bd058456f43828286c88347050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectSpeed: 5
-  startPosition: 70.5
-  resetPosition: -50.8
 --- !u!1 &1658944432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4084,25 +4042,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1718384863 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1563525004076488, guid: 44c74fc69f21c964598a47ce5066cacd,
-    type: 2}
-  m_PrefabInternal: {fileID: 654231499}
---- !u!114 &1718384864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718384863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 694550bd058456f43828286c88347050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectSpeed: 5
-  startPosition: 70.5
-  resetPosition: -50.8
 --- !u!1 &1733697548
 GameObject:
   m_ObjectHideFlags: 0
