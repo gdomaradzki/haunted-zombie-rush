@@ -48,6 +48,7 @@ public class Player : MonoBehaviour {
             rigidBody.AddForce(new Vector2(-50, 20), ForceMode.Impulse);
             rigidBody.detectCollisions = false;
             audioSource.PlayOneShot(sfxDeath);
+            GameManager.instance.PlayerCollided();
         }
     }
 }
